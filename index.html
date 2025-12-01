@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 3秒后自动跳转 -->
+    <meta http-equiv="refresh" content="3; url=Camperbot_Profile.html">
+    <title>欢迎来到我的魔法个人资料页！</title>
+    <style>
+        body {
+            font-family: system-ui;
+            background: linear-gradient(135deg, #FFE5EC, #E5F9FF);
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #3498db;
+        }
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 欢迎！</h1>
+        <p>你正在访问 <strong>小深的第一个完整前端项目</strong>！</p>
+        <p>⏳ 页面将在 <span id="countdown">3</span> 秒后自动跳转...</p>
+        <p>如果跳转没有发生，请 <a href="Camperbot_Profile.html">点击这里直接访问</a></p>
+        
+        <script>
+            // 倒计时效果
+            var seconds = 3;
+            var countdown = setInterval(function() {
+                seconds--;
+                document.getElementById('countdown').textContent = seconds;
+                if (seconds <= 0) {
+                    clearInterval(countdown);
+                }
+            }, 1000);
+        </script>
+    </div>
+</body>
+</html>
