@@ -1,13 +1,11 @@
-# magic-camperbot-profile
-My first complete HTML/CSS/JS project with interactive features
 # 🎨 Magic Camperbot Profile
 
 这是我的第一个完整的HTML/CSS/JavaScript项目！基于freeCodeCamp的调试练习扩展而成。
 
 ## ✨ 功能特点
-- ✅ 响应式个人资料页面
-- ✅ 点击页面任意位置，背景颜色随机变化
-- ✅ 精心设计的文字阴影效果
+- 响应式个人资料页面
+- 点击页面任意位置，背景颜色随机变化
+- 精心设计的文字阴影效果
 
 ## 🖱️ 如何使用
 1. 打开 `Camperbot_Profile.html`
