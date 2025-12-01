@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: pink;
+}
+h1,
+h2,
+h3 {
+  text-shadow: 3px 3px 5px orange;
+}
+p {
+  font-size: 20px;
+  color: rgb(250, 20, 0);
+}
